@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var findShortestSubArray = function (nums) {
+function findShortestSubArray(nums) {
 
   // Elements is a map of key => elementInfo
   // with key being each of the elements in the array
