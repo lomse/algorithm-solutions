@@ -1,4 +1,4 @@
-function maxChar(str) {
+function maxChar(str){
 
   const arr = str.split("");
 
@@ -10,6 +10,7 @@ function maxChar(str) {
     return acc;
   }, new Map());
 
+  // Map letter with higher number of occurrences to count
   const res = arr.reduce((max, letter) => {
     if (map.get(letter) > max.count) {
       return { letter, count: map.get(letter) }
@@ -22,7 +23,4 @@ function maxChar(str) {
   return res.letter;
 }
 
-// assert.equal(maxChar("a"), "a");
-// assert.equal(maxChar("test"), "t");
-// assert.equal(maxChar("I loveeeeee noodles"), "e");
-// assert.equal(maxChar("1337"), "3");
+module.exports = maxChar;

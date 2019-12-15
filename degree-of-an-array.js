@@ -66,6 +66,8 @@ function findShortestSubArray(nums) {
   return subArray.length
 };
 
+module.exports = findShortestSubArray;
+
 // Time complexity: O(N)
 
 // Testcases - [1, 2, 2, 3, 1], [1,2,2,3,1,4,2]
