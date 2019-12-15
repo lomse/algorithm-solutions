@@ -2,8 +2,8 @@
   "name": "algorithm-solutions",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/lomse/degree-of-array.git",
-  "author": "Selom Amouzou <selom@spryonline.com>",
+  "repository": "https://github.com/lomse/algorithm-solutions.git",
+  "author": "Selom Amouzou <shellom2005@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
